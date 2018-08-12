@@ -222,6 +222,7 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.006s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.08.12-12.31.18:455][  0]LogInit: Selected Device Profile: [Windows]
 [2018.08.12-12.31.18:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.08.12-12.31.19:001][  0]LogInit: Computer: KYLE-KIM
@@ -713,3 +714,344 @@ LogInit: Object subsystem initialized
 [2018.08.12-12.43.19:625][244]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.08.12-12.43.19:673][244]LogExit: Exiting.
 [2018.08.12-12.43.19:707][244]Log file closed, 08/12/18 21:43:19
+=======
+[2018.08.12-12.26.12:062][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.12-12.26.12:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.12-12.26.12:078][  0]LogHAL: Display: Platform has ~ 8 GB [8493223936 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.12-12.26.12:078][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.12-12.26.12:078][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.12-12.26.12:078][  0]LogInit: Computer: DESKTOP-7A32EGI
+[2018.08.12-12.26.12:078][  0]LogInit: User: kang
+[2018.08.12-12.26.12:078][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.08.12-12.26.12:078][  0]LogInit: High frequency timer resolution =2.533206 MHz
+[2018.08.12-12.26.12:079][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.12-12.26.12:079][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.12-12.26.12:079][  0]LogMemory: Process Physical Memory: 99.59 MB used, 99.59 MB peak
+[2018.08.12-12.26.12:079][  0]LogMemory: Process Virtual Memory: 90.59 MB used, 90.59 MB peak
+[2018.08.12-12.26.12:079][  0]LogMemory: Physical Memory: 3177.97 MB used,  4921.80 MB free, 8099.77 MB total
+[2018.08.12-12.26.12:079][  0]LogMemory: Virtual Memory: 4626.80 MB used,  4921.80 MB free, 134217728.00 MB total
+[2018.08.12-12.26.12:122][  0]LogInit: Using OS detected language (ko-KR).
+[2018.08.12-12.26.12:122][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.08.12-12.26.12:123][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.08.12-12.26.12:501][  0]LogStreaming: Display: Took  0.379s to InitEngineTextLocalization.
+[2018.08.12-12.26.12:501][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.12-12.26.12:562][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.12-12.26.12:562][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.12-12.26.13:081][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.12-12.26.13:081][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.12-12.26.13:332][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2018.08.12-12.26.13:332][  0]LogD3D11RHI:       2019/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.12-12.26.13:340][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.08.12-12.26.13:340][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.12-12.26.13:344][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.12-12.26.13:344][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.12-12.26.13:344][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.12-12.26.13:361][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.12-12.26.13:361][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.12-12.26.13:361][  0]LogWindows: EnumDisplayDevices:
+[2018.08.12-12.26.13:362][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.08.12-12.26.13:363][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.08.12-12.26.13:364][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.08.12-12.26.13:364][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.12-12.26.13:364][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2018.08.12-12.26.13:364][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.12-12.26.13:364][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.12-12.26.13:364][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.08.12-12.26.13:384][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.12-12.26.13:401][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.12-12.26.13:402][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Intermediate/Shaders/WorkingDirectory/11356/).
+[2018.08.12-12.26.13:403][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kang/AppData/Local/Temp/UnrealShaderWorkingDir/B98F84FA4D690036BA24E2AF6CCFF4A9/'.
+[2018.08.12-12.26.13:824][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.12-12.26.13:842][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.12-12.26.13:859][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.12-12.26.13:876][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.12-12.26.13:895][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.12-12.26.13:912][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.12-12.26.13:930][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.12-12.26.13:949][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.12-12.26.13:958][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.12-12.26.14:062][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:063][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.12-12.26.14:066][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.12-12.26.14:135][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.12-12.26.14:135][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.12-12.26.14:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.12-12.26.14:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.12-12.26.14:183][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.12-12.26.14:202][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.12-12.26.14:218][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.12-12.26.14:236][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.12-12.26.14:248][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.12-12.26.14:249][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.12-12.26.14:353][  0]LogXGEController: Cleaning working directory: C:/Users/kang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.12-12.26.14:353][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.12-12.26.14:354][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.12-12.26.14:354][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.12-12.26.15:515][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.12-12.26.15:591][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/kang/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.12-12.26.15:592][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kang/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.12-12.26.15:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.12-12.26.15:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.12-12.26.15:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.12-12.26.15:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.12-12.26.15:610][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.12-12.26.15:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.12-12.26.15:624][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.12-12.26.15:624][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.12-12.26.15:646][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.12-12.26.15:648][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.12-12.26.15:649][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.12-12.26.15:761][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2018.08.12-12.26.16:201][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.12-12.26.16:375][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.12-12.26.16:382][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.12-12.26.16:382][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.12-12.26.16:382][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.12-12.26.16:382][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.12-12.26.16:404][  0]LogNetVersion: IfJaina 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1166217450)
+[2018.08.12-12.26.17:162][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.171563 seconds
+[2018.08.12-12.26.17:170][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.12-12.26.17:170][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.12-12.26.17:170][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.12-12.26.18:490][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.12-12.26.18:505][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.12-12.26.18:704][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.08.12-12.26.18:704][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.08.12-12.26.18:708][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.08.12-12.26.18:710][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.08.12-12.26.18:937][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.12-12.26.19:035][  0]LogOcInput: OculusInput pre-init called
+[2018.08.12-12.26.19:112][  0]LogEngine: Initializing Engine...
+[2018.08.12-12.26.19:114][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.12-12.26.19:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.12-12.26.19:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.12-12.26.19:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.12-12.26.19:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.12-12.26.19:374][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.12-12.26.19:399][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.12-12.26.19:420][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.12-12.26.19:648][  0]LogInit: FAudioDevice initialized.
+[2018.08.12-12.26.19:648][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.12-12.26.19:888][  0]LogDerivedDataCache: Saved boot cache 0.24s 71MB C:/Users/kang/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.12-12.26.19:898][  0]LogInit: Texture streaming: Enabled
+[2018.08.12-12.26.19:921][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.12-12.26.19:938][  0]LogInit: Transaction tracking system initialized
+[2018.08.12-12.26.19:978][  0]BlueprintLog: New page: 에디터 로드
+[2018.08.12-12.26.20:099][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.08.12-12.26.20:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.12-12.26.20:844][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.12-12.26.20:844][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.12-12.26.20:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.12-12.26.20:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.12-12.26.20:845][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.12-12.26.20:845][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.12-12.26.21:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/' took 0.01s
+[2018.08.12-12.26.21:032][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.08.12-12.26.21:033][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.12-12.26.21:033][  0]LightingResults: New page: 라이팅 빌드
+[2018.08.12-12.26.21:039][  0]MapCheck: New page: 맵 체크
+[2018.08.12-12.26.21:039][  0]LightingResults: New page: 라이팅 빌드
+[2018.08.12-12.26.21:278][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.12-12.26.21:292][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.12-12.26.21:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.12-12.26.21:556][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 241.387ms.
+[2018.08.12-12.26.21:556][  0]LogFileHelpers: Loading map 'Template_Default' took 0.524
+[2018.08.12-12.26.21:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.12-12.26.21:681][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.12-12.26.21:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.12-12.26.21:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.12-12.26.21:707][  0]LogCollectionManager: Loaded 0 collections in 0.002331 seconds
+[2018.08.12-12.26.21:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Collections/' took 0.01s
+[2018.08.12-12.26.21:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Developers/kang/Collections/' took 0.01s
+[2018.08.12-12.26.21:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Collections/' took 0.01s
+[2018.08.12-12.26.21:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.12-12.26.21:766][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2572 classes and 603 folders.
+[2018.08.12-12.26.21:775][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.12-12.26.21:843][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.12-12.26.21:850][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.12-12.26.21:862][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.08.12-12.26.21:930][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.12-12.26.21:934][  0]LogSlate: Took 0.003448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.08.12-12.26.21:943][  0]LogSlate: Took 0.003485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.08.12-12.26.21:944][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.12-12.26.21:947][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.12-12.26.22:055][  0]LogRenderer: Reallocating scene render targets to support 1108x596 Format 9 NumSamples 1 (Frame:1).
+[2018.08.12-12.26.22:437][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.12-12.26.22:438][  0]LogLoad: (Engine Initialization) Total time: 12.40 seconds
+[2018.08.12-12.26.22:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.12-12.26.22:459][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.08.12-12.26.22:486][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.12-12.26.22:515][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.12-12.26.22:539][  1]LogAssetRegistry: Asset discovery search completed in 6.8004 seconds
+[2018.08.12-12.26.22:541][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.12-12.26.22:541][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.08.12-12.26.24:293][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.12-12.27.09:344][ 61]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.12-12.27.09:454][ 61]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\Wow Modeling Resources\Item\Sword\sword_1h_long_d_01.fbx)
+[2018.08.12-12.27.09:887][ 61]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\Wow Modeling Resources\Item\Sword\sword_1h_long_d_01.fbx
+[2018.08.12-12.27.10:008][ 61]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.12-12.27.27:875][ 61]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.08.12-12.27.28:218][ 61]LogLinker: '/Game/Player/Model/sword_1h_long_d_01_v01' 파일을 찾을 수 없습니다.
+[2018.08.12-12.27.28:219][ 61]LogLinker: '/Game/Player/Model/sword_1h_long_d_01_v01' 파일을 찾을 수 없습니다.
+[2018.08.12-12.27.28:261][ 61]LogTexture: Display: 텍스처 빌드: sword_1h_long_d_01_v01 (AutoDXT, 128X64)
+[2018.08.12-12.27.28:457][ 61]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_weapon_sword_1h_long_d_01_0, compiling. 
+[2018.08.12-12.27.28:550][ 61]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.27.28:550][ 61]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.27.28:550][ 61]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.27.28:614][ 61]LogTexture: Display: 텍스처 빌드: sword_1h_long_d_01_v01 (AutoDXT, 128X64)
+[2018.08.12-12.27.28:627][ 61]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_weapon_sword_1h_long_d_01_1, compiling. 
+[2018.08.12-12.27.29:242][ 61]LogStaticMesh: sword_1h_long_d_01 스태틱 메시 빌드중...
+[2018.08.12-12.27.29:304][ 61]LogStaticMesh: Built static mesh [0.06s] /Game/Player/Model/sword_1h_long_d_01.sword_1h_long_d_01
+[2018.08.12-12.27.29:664][ 61]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2018.08.12-12.27.30:012][ 62]LogSlate: Took 0.003675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.08.12-12.27.32:388][193]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.27.32:391][193]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.27.34:046][291]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.27.38:744][556]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.27.40:837][679]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.27.42:598][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.12-12.27.42:646][779]PIE: New page: PIE 세션: Untitled_1 (2018. 8. 13. 오전 6:27:42)
+[2018.08.12-12.27.42:646][779]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.08.12-12.27.42:699][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053195s)
+[2018.08.12-12.27.42:718][779]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.12-12.27.42:718][779]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2018.08.12-12.27.42:718][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.072451s)
+[2018.08.12-12.27.42:782][779]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.12-12.27.42:828][779]LogInit: FAudioDevice initialized.
+[2018.08.12-12.27.42:849][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.12-12.27.42:912][779]LogLoad: Game class is 'GameModeBase'
+[2018.08.12-12.27.42:921][779]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.08.12-21.27.42
+[2018.08.12-12.27.42:922][779]LogWorld: Bringing up level for play took: 0.001353
+[2018.08.12-12.27.43:084][779]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.08.12-12.27.43:129][779]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.897
+[2018.08.12-12.27.44:506][843]LogSlate: Window 'IfJaina 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.08.12-12.27.44:565][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.12-12.27.44:717][844]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.08.12-12.28.07:763][200]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.08.12-12.28.07:836][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_weapon_swo97B0C759490B4A77B5A72089030ECF7A.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_weapon_sword_1h_long_d_01_0.uasset'
+[2018.08.12-12.28.07:884][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_weapon_swo0F0303474BFE88D35D727E9131E3C2D6.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_weapon_sword_1h_long_d_01_1.uasset'
+[2018.08.12-12.28.07:909][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Model/sword_1h_long_d_01" FILE="../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01.uasset" SILENT=true
+[2018.08.12-12.28.07:995][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/sword_1h_long_d_014CC1642147769445CB80218521D11B0E.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01.uasset'
+[2018.08.12-12.28.08:022][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Model/sword_1h_long_d_01_v01" FILE="../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01_v01.uasset" SILENT=true
+[2018.08.12-12.28.08:032][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/sword_1h_long_d_01_v019C6FAD674243E553DB4F27A7C6F7B6F2.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01_v01.uasset'
+[2018.08.12-12.35.58:818][873]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\Wow Modeling Resources\Item\Head\helm_armor_voidelf_d01_bef.fbx)
+[2018.08.12-12.35.58:835][873]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\Wow Modeling Resources\Item\Head\helm_armor_voidelf_d01_bef.fbx
+[2018.08.12-12.35.58:847][873]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.12-12.36.11:545][873]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.08.12-12.36.11:570][873]LogLinker: '/Game/Player/Model/helm_armor_voidelf_d_01_purple' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:571][873]LogLinker: '/Game/Player/Model/helm_armor_voidelf_d_01_purple' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:596][873]LogTexture: Display: 텍스처 빌드: helm_armor_voidelf_d_01_purple (AutoDXT, 256X256)
+[2018.08.12-12.36.11:692][873]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_head_helm_armor_voidelf_d_01_bef_0, compiling. 
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.36.11:712][873]LogLinker: '/Game/Player/Model/starfield_void_mod2x' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:712][873]LogLinker: '/Game/Player/Model/starfield_void_mod2x' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:737][873]LogTexture: Display: 텍스처 빌드: starfield_void_mod2x (AutoDXT, 256X256)
+[2018.08.12-12.36.11:892][873]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_head_helm_armor_voidelf_d_01_bef_1, compiling. 
+[2018.08.12-12.36.11:940][873]LogStaticMesh: helm_armor_voidelf_d01_bef 스태틱 메시 빌드중...
+[2018.08.12-12.36.11:955][873]LogStaticMesh: Built static mesh [0.02s] /Game/Player/Model/helm_armor_voidelf_d01_bef.helm_armor_voidelf_d01_bef
+[2018.08.12-12.36.11:976][873]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2018.08.12-12.36.13:831][970]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.36.15:422][ 63]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.36.15:426][ 63]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.36.19:097][276]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.36.20:015][320]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.36.21:498][320]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.08.12-12.36.21:585][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/helm_armor_voidelf_d01_bef892B7028433D66B22745C8936137E575.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/helm_armor_voidelf_d01_bef.uasset'
+[2018.08.12-12.36.21:660][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/helm_armor_voidelf_d_01_purple7A8D6A314AEC0AE6A123A4941F70B823.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/helm_armor_voidelf_d_01_purple.uasset'
+[2018.08.12-12.36.21:904][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_head_helm_0DE7EC574AD8BFAC3A9696A1603C7734.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_head_helm_armor_voidelf_d_01_bef_0.uasset'
+[2018.08.12-12.36.23:677][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_head_helm_9BD54E5343C5DF31A471DCB4FE2DBE3F.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_head_helm_armor_voidelf_d_01_bef_1.uasset'
+[2018.08.12-12.36.23:704][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Model/starfield_void_mod2x" FILE="../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/starfield_void_mod2x.uasset" SILENT=true
+[2018.08.12-12.36.23:728][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/starfield_void_mod2x2BFAC57543607B64317054A5FC9DCCB3.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/starfield_void_mod2x.uasset'
+[2018.08.12-12.40.20:815][352]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.12-12.41.01:587][543]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\Wow Modeling Resources\Item\Shield\shield_1h_felfireraid_d_01.fbx)
+[2018.08.12-12.41.01:602][543]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\Wow Modeling Resources\Item\Shield\shield_1h_felfireraid_d_01.fbx
+[2018.08.12-12.41.01:618][543]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.12-12.41.12:021][543]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.08.12-12.41.12:046][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node START [item/objectcomponents/shield/shield_1h_felfireraid_d_01] 
+[2018.08.12-12.41.12:047][543]LogFbx: 	Total Deformer Count 841298368.
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node 1]  (Type Skin).
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: 	Attribute (item/objectcomponents/shield/shield_1h_felfireraid_d_01) Type (4).
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node Attribute Child 1] item/objectcomponents/shield/shield_1h_felfireraid_d_01 (Type Mesh).
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node END [item/objectcomponents/shield/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node START [item/objectcomponents/shield/shield_1h_felfireraid_d_01] 
+[2018.08.12-12.41.12:047][543]LogFbx: 	Total Deformer Count 841298368.
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node 1]  (Type Skin).
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: 	Attribute (item/objectcomponents/shield/shield_1h_felfireraid_d_01) Type (4).
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node Attribute Child 1] item/objectcomponents/shield/shield_1h_felfireraid_d_01 (Type Mesh).
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node END [item/objectcomponents/shield/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.12:123][543]LogFbx: Valid bind pose for Pose (Bind Pose) - item/objectcomponents/shield/shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:132][543]LogMaterial: Warning: Material /Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0.item_objectcomponents_shield_shield_1h_felfireraid_d_01_0 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.12-12.41.12:135][543]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_shield_shield_1h_felfireraid_d_01_0, compiling. 
+[2018.08.12-12.41.12:174][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_green' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:175][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_green' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.12-12.41.12:186][543]LogTexture: Display: 텍스처 빌드: shield_1h_felfireraid_d_01_green (AutoDXT, 256X256)
+[2018.08.12-12.41.12:315][543]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_shield_shield_1h_felfireraid_d_01_0, compiling. 
+[2018.08.12-12.41.12:376][543]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 4
+[2018.08.12-12.41.12:465][543]LogSkeletalMesh: Section 0: 1587 vertices, 5 active bones
+[2018.08.12-12.41.12:466][543]LogSkeletalMesh: Section 0: Material=0, 1986 triangles
+[2018.08.12-12.41.12:501][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:504][543]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:511][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:512][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:518][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:519][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:608][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:611][543]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:622][543]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2018.08.12-12.41.12:656][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:659][543]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.14:569][640]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.41.14:573][640]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.41.19:170][910]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.12-12.41.21:126][ 16]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.12-12.41.24:680][221]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.12-12.41.27:376][378]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.12-12.41.35:145][833]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.12-12.41.35:537][856]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.12-12.41.48:985][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.059
+[2018.08.12-12.41.49:039][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01] ([1] browsable assets)...
+[2018.08.12-12.41.49:052][644]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.49:052][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.49:079][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Auto1E31BC8BB48C8FD1CDB307B9CA66E767B.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_Auto1.uasset'
+[2018.08.12-12.41.49:088][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0] ([1] browsable assets)...
+[2018.08.12-12.41.49:100][644]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0.item_objectcomponents_shield_shield_1h_felfireraid_d_01_0]
+[2018.08.12-12.41.49:100][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0]
+[2018.08.12-12.41.49:122][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_shield_shiE07C328142AF524F9CB98C8B535A5490.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0_Auto1.uasset'
+[2018.08.12-12.41.49:129][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_green] ([1] browsable assets)...
+[2018.08.12-12.41.49:140][644]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Model/shield_1h_felfireraid_d_01_green.shield_1h_felfireraid_d_01_green]
+[2018.08.12-12.41.49:140][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_green]
+[2018.08.12-12.41.49:165][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_green9F446F3B47E34EC5A7431D9C0B2BD9D6.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_green_Auto1.uasset'
+[2018.08.12-12.41.49:222][644]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton] ([1] browsable assets)...
+[2018.08.12-12.41.49:222][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton]
+[2018.08.12-12.41.49:231][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Skele2094D8334AB43FC42A9E30A69E3AD602.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton_Auto1.uasset'
+[2018.08.12-12.41.49:241][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset] ([1] browsable assets)...
+[2018.08.12-12.41.49:260][644]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset.shield_1h_felfireraid_d_01_PhysicsAsset]
+[2018.08.12-12.41.49:260][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset]
+[2018.08.12-12.41.49:285][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Physi7446823D4E2991D171CAACACE5B07D2C.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset_Auto1.uasset'
+[2018.08.12-12.41.49:289][644]LogFileHelpers: Auto-saving content packages took 0.302
+>>>>>>> a6fcdca70790fc3b7985177816a6d1b6446ec8d9
