@@ -383,3 +383,107 @@ LogInit: Object subsystem initialized
 [2018.08.12-12.28.07:995][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/sword_1h_long_d_014CC1642147769445CB80218521D11B0E.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01.uasset'
 [2018.08.12-12.28.08:022][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Model/sword_1h_long_d_01_v01" FILE="../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01_v01.uasset" SILENT=true
 [2018.08.12-12.28.08:032][200]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/sword_1h_long_d_01_v019C6FAD674243E553DB4F27A7C6F7B6F2.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/sword_1h_long_d_01_v01.uasset'
+[2018.08.12-12.35.58:818][873]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\Wow Modeling Resources\Item\Head\helm_armor_voidelf_d01_bef.fbx)
+[2018.08.12-12.35.58:835][873]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\Wow Modeling Resources\Item\Head\helm_armor_voidelf_d01_bef.fbx
+[2018.08.12-12.35.58:847][873]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.12-12.36.11:545][873]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.08.12-12.36.11:570][873]LogLinker: '/Game/Player/Model/helm_armor_voidelf_d_01_purple' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:571][873]LogLinker: '/Game/Player/Model/helm_armor_voidelf_d_01_purple' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:596][873]LogTexture: Display: 텍스처 빌드: helm_armor_voidelf_d_01_purple (AutoDXT, 256X256)
+[2018.08.12-12.36.11:692][873]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_head_helm_armor_voidelf_d_01_bef_0, compiling. 
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.36.11:712][873]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.36.11:712][873]LogLinker: '/Game/Player/Model/starfield_void_mod2x' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:712][873]LogLinker: '/Game/Player/Model/starfield_void_mod2x' 파일을 찾을 수 없습니다.
+[2018.08.12-12.36.11:737][873]LogTexture: Display: 텍스처 빌드: starfield_void_mod2x (AutoDXT, 256X256)
+[2018.08.12-12.36.11:892][873]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_head_helm_armor_voidelf_d_01_bef_1, compiling. 
+[2018.08.12-12.36.11:940][873]LogStaticMesh: helm_armor_voidelf_d01_bef 스태틱 메시 빌드중...
+[2018.08.12-12.36.11:955][873]LogStaticMesh: Built static mesh [0.02s] /Game/Player/Model/helm_armor_voidelf_d01_bef.helm_armor_voidelf_d01_bef
+[2018.08.12-12.36.11:976][873]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2018.08.12-12.36.13:831][970]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.12-12.36.15:422][ 63]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.36.15:426][ 63]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.36.19:097][276]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.12-12.36.20:015][320]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.12-12.36.21:498][320]LogSlate: Window '콘텐츠 저장' being destroyed
+[2018.08.12-12.36.21:585][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/helm_armor_voidelf_d01_bef892B7028433D66B22745C8936137E575.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/helm_armor_voidelf_d01_bef.uasset'
+[2018.08.12-12.36.21:660][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/helm_armor_voidelf_d_01_purple7A8D6A314AEC0AE6A123A4941F70B823.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/helm_armor_voidelf_d_01_purple.uasset'
+[2018.08.12-12.36.21:904][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_head_helm_0DE7EC574AD8BFAC3A9696A1603C7734.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_head_helm_armor_voidelf_d_01_bef_0.uasset'
+[2018.08.12-12.36.23:677][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_head_helm_9BD54E5343C5DF31A471DCB4FE2DBE3F.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/item_objectcomponents_head_helm_armor_voidelf_d_01_bef_1.uasset'
+[2018.08.12-12.36.23:704][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Model/starfield_void_mod2x" FILE="../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/starfield_void_mod2x.uasset" SILENT=true
+[2018.08.12-12.36.23:728][320]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/starfield_void_mod2x2BFAC57543607B64317054A5FC9DCCB3.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Content/Player/Model/starfield_void_mod2x.uasset'
+[2018.08.12-12.40.20:815][352]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.12-12.41.01:587][543]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\Wow Modeling Resources\Item\Shield\shield_1h_felfireraid_d_01.fbx)
+[2018.08.12-12.41.01:602][543]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\Wow Modeling Resources\Item\Shield\shield_1h_felfireraid_d_01.fbx
+[2018.08.12-12.41.01:618][543]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.12-12.41.12:021][543]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.08.12-12.41.12:046][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node START [item/objectcomponents/shield/shield_1h_felfireraid_d_01] 
+[2018.08.12-12.41.12:047][543]LogFbx: 	Total Deformer Count 841298368.
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node 1]  (Type Skin).
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: 	Attribute (item/objectcomponents/shield/shield_1h_felfireraid_d_01) Type (4).
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node Attribute Child 1] item/objectcomponents/shield/shield_1h_felfireraid_d_01 (Type Mesh).
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node END [item/objectcomponents/shield/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node START [item/objectcomponents/shield/shield_1h_felfireraid_d_01] 
+[2018.08.12-12.41.12:047][543]LogFbx: 	Total Deformer Count 841298368.
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node 1]  (Type Skin).
+[2018.08.12-12.41.12:047][543]LogFbx: =================================================
+[2018.08.12-12.41.12:047][543]LogFbx: 	Attribute (item/objectcomponents/shield/shield_1h_felfireraid_d_01) Type (4).
+[2018.08.12-12.41.12:047][543]LogFbx: 		[Node Attribute Child 1] item/objectcomponents/shield/shield_1h_felfireraid_d_01 (Type Mesh).
+[2018.08.12-12.41.12:047][543]LogFbx: Dumping Node END [item/objectcomponents/shield/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.12:123][543]LogFbx: Valid bind pose for Pose (Bind Pose) - item/objectcomponents/shield/shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:132][543]LogMaterial: Warning: Material /Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0.item_objectcomponents_shield_shield_1h_felfireraid_d_01_0 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.12-12.41.12:135][543]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_shield_shield_1h_felfireraid_d_01_0, compiling. 
+[2018.08.12-12.41.12:174][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_green' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:175][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_green' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.12-12.41.12:182][543]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.12-12.41.12:186][543]LogTexture: Display: 텍스처 빌드: shield_1h_felfireraid_d_01_green (AutoDXT, 256X256)
+[2018.08.12-12.41.12:315][543]LogMaterial: Display: Missing cached shader map for material item_objectcomponents_shield_shield_1h_felfireraid_d_01_0, compiling. 
+[2018.08.12-12.41.12:376][543]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 4
+[2018.08.12-12.41.12:465][543]LogSkeletalMesh: Section 0: 1587 vertices, 5 active bones
+[2018.08.12-12.41.12:466][543]LogSkeletalMesh: Section 0: Material=0, 1986 triangles
+[2018.08.12-12.41.12:501][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:504][543]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:511][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:512][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:518][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:519][543]LogLinker: '/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2018.08.12-12.41.12:608][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:611][543]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.12:622][543]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2018.08.12-12.41.12:656][543]LogSkeletalMesh: Building Skeletal Mesh shield_1h_felfireraid_d_01...
+[2018.08.12-12.41.12:659][543]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01
+[2018.08.12-12.41.14:569][640]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.41.14:573][640]LogSlate: Window '메시지 로그' being destroyed
+[2018.08.12-12.41.19:170][910]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.08.12-12.41.21:126][ 16]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.12-12.41.24:680][221]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.12-12.41.27:376][378]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.12-12.41.35:145][833]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.12-12.41.35:537][856]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.12-12.41.48:985][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.059
+[2018.08.12-12.41.49:039][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01] ([1] browsable assets)...
+[2018.08.12-12.41.49:052][644]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Player/Model/shield_1h_felfireraid_d_01.shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.49:052][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01]
+[2018.08.12-12.41.49:079][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Auto1E31BC8BB48C8FD1CDB307B9CA66E767B.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_Auto1.uasset'
+[2018.08.12-12.41.49:088][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0] ([1] browsable assets)...
+[2018.08.12-12.41.49:100][644]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0.item_objectcomponents_shield_shield_1h_felfireraid_d_01_0]
+[2018.08.12-12.41.49:100][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0]
+[2018.08.12-12.41.49:122][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/item_objectcomponents_shield_shiE07C328142AF524F9CB98C8B535A5490.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/item_objectcomponents_shield_shield_1h_felfireraid_d_01_0_Auto1.uasset'
+[2018.08.12-12.41.49:129][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_green] ([1] browsable assets)...
+[2018.08.12-12.41.49:140][644]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Player/Model/shield_1h_felfireraid_d_01_green.shield_1h_felfireraid_d_01_green]
+[2018.08.12-12.41.49:140][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_green]
+[2018.08.12-12.41.49:165][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_green9F446F3B47E34EC5A7431D9C0B2BD9D6.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_green_Auto1.uasset'
+[2018.08.12-12.41.49:222][644]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton] ([1] browsable assets)...
+[2018.08.12-12.41.49:222][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton]
+[2018.08.12-12.41.49:231][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Skele2094D8334AB43FC42A9E30A69E3AD602.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_Skeleton_Auto1.uasset'
+[2018.08.12-12.41.49:241][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset] ([1] browsable assets)...
+[2018.08.12-12.41.49:260][644]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset.shield_1h_felfireraid_d_01_PhysicsAsset]
+[2018.08.12-12.41.49:260][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset]
+[2018.08.12-12.41.49:285][644]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/shield_1h_felfireraid_d_01_Physi7446823D4E2991D171CAACACE5B07D2C.tmp' to '../../../../../../Users/kang/Documents/GitHub/IfJaina/IfJaina/Saved/Autosaves/Game/Player/Model/shield_1h_felfireraid_d_01_PhysicsAsset_Auto1.uasset'
+[2018.08.12-12.41.49:289][644]LogFileHelpers: Auto-saving content packages took 0.302
